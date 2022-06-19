@@ -61,5 +61,9 @@ _.filter = function(arr, callback) {
 }
 
 
+_.from = arr => {
+    return Array.prototype.slice.call(arr);
+}
+
 
 module.exports = _ ;
