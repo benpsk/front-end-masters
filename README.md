@@ -4,4 +4,10 @@
 - https://frontendmasters.com/
 
 > slide link
-- https://slides.com/bgando/f2f-final-day-1#/1
+- https://slides.com/bgando/f2f-final-day-2#/1
+
+> install npm for mocha & expect.js 
+```
+npm install
+```
+- open index.test.html to browser
