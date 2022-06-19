@@ -1,5 +1,8 @@
-// use underscore.js library // use const instead of var
+// use underscore.js library // use const 
 // const _ = require('../src/libs/underscore');
+
+// use custom implementation of underscore js
+const _ = require('../src/custom-libs/underscore');
 
 // list transformations
 function CreateSuspectObjects(name) {
@@ -21,27 +24,6 @@ for(let i = 0; i < suspects.length; i++){
 }
 
 console.log(suspectsList);
-
-
-
-// custom _.each implementation
-const _ = {}; // use const
-
-_.each = function(list, callback) {
-    if (Array.isArray(list)) {
-        // loop through array
-        for (var i = 0; i < list.length; i++) {
-            // call the callback with a list item
-            callback(list[i], i, list);
-        }
-    } else {
-        // loop through object
-        for(var key in list) {
-            // call the callback with a list item
-            callback(list[key], key, list);
-        }
-    }
-};
 
 
 
@@ -80,22 +62,6 @@ _.each({name: 'John', age: 12, 'occupation': 'Monk'}, function(name, i, list) {
     console.log(name);
 })
 
-
-
-
-_.map = function(list, callback) {
-    var storage = [];
-
-    // for (var i = 0; i < list.length; i++) {
-    //     storage.push(callback(list[i], i, list));
-    // }
-
-    _.each(list, function(v, i, list) {
-        storage.push(callback(v, i, list));
-    })
-    return storage;
-
-};
 
 
 // testing _.map
