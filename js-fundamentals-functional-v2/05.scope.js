@@ -165,9 +165,9 @@ describe('Scope Exercises', function() {
         // before we run outerFn, there will be no innerFun exported to the global scope
         expect(window.retainedInnerFn).to.equal.undefined;
         outerFn();
-        // expect(window.retainedInnerFn).to.be.a('function');
-        // window.retainedInnerFn();
-        // expect(ACTUAL === 13).to.be.true;
+        expect(window.retainedInnerFn).to.be.a('function');
+        window.retainedInnerFn();
+        expect(ACTUAL === 13).to.be.true;
     });
 
 });
