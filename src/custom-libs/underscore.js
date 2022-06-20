@@ -80,4 +80,24 @@ _.reduce = (list, callback, initial) => {
     return memo;
 }
 
+
+// implement curring
+
+_.curry = (fn) => {
+    return (arg) => {
+        return (arg2) => {
+            return fn(arg, arg2);
+        }
+    }
+}
+
+// compose implementation
+_.compose = (fn, fn2) => {
+    return (arg) => {
+        const result = fn2(arg);
+        return fn(result);
+    }
+}
+
+
 module.exports = _ ;
