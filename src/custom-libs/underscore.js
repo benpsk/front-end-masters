@@ -66,4 +66,18 @@ _.from = arr => {
 }
 
 
+_.reduce = (list, callback, initial) => {
+    let memo = initial;
+
+    for (let i = 0; i < list.length; i++) {
+
+        if (i === 0 && memo === undefined) {
+            memo = list[0];
+        } else {
+            memo = callback(list[i], memo);
+        }
+    }
+    return memo;
+}
+
 module.exports = _ ;
