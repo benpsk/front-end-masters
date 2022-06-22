@@ -3,11 +3,7 @@
 > check all branchs for different level of coures
 - https://frontendmasters.com/
 
-> slide link
-- https://slides.com/bgando/f2f-final-day-2#/1
+> javascript-the-hard-parts-v2
 
-> install npm for mocha & expect.js 
-```
-npm install
-```
-- open index.test.html to browser
+> slide link
+- https://static.frontendmasters.com/resources/2019-09-18-javascript-hard-parts-v2/javascript-hard-parts-v2.pdf
