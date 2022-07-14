@@ -22,3 +22,21 @@
 
 > js-the-new-hard-parts
 - https://static.frontendmasters.com/resources/2018-05-23-javascript-new-hard-parts/new-hard-parts-slides.pdf
+
+
+> reacte-intro-and-intermediate
+> course website
+- https://btholt.github.io/complete-intro-to-react-v7/
+
+> course repo
+- https://github.com/btholt/complete-intro-to-react-v7
+
+> course project file
+- https://github.com/btholt/citr-v7-project
+
+
+> typescript-fundamentals-v3
+- https://www.typescript-training.com/course/fundamentals-v3
+
+> course repo
+- https://github.com/mike-north/ts-fundamentals-v3
