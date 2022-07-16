@@ -40,3 +40,7 @@
 
 > course repo
 - https://github.com/mike-north/ts-fundamentals-v3
+
+
+> intermediate-typescript
+- https://www.typescript-training.com/course/intermediate-v1
