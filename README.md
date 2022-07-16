@@ -44,3 +44,12 @@
 
 > intermediate-typescript
 - https://www.typescript-training.com/course/intermediate-v1
+
+
+
+> State Management in Pure React, v2
+> course pdf
+- https://speakerdeck.com/stevekinney/react-state
+
+> course repo
+- https://github.com/FrontendMasters/pure-react-state-management
