@@ -60,5 +60,5 @@
 > course website
 - https://stevekinney.github.io/react-and-typescript/
 
--> course repo
+> course repo
 - https://github.com/stevekinney/react-and-typescript-projects
