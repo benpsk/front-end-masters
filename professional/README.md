@@ -53,3 +53,12 @@
 
 > course repo
 - https://github.com/FrontendMasters/pure-react-state-management
+
+
+
+> React && Typescript
+> course website
+- https://stevekinney.github.io/react-and-typescript/
+
+-> course repo
+- https://github.com/stevekinney/react-and-typescript-projects
