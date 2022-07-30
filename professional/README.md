@@ -62,3 +62,11 @@
 
 > course repo
 - https://github.com/stevekinney/react-and-typescript-projects
+
+
+> VS Code Can Do That Workshop
+> course websiite
+- https://burkeholland.gitbook.io/vs-code-can-do-that/
+
+> course repo
+- https://github.com/burkeholland/workshop-vs-code-can-do-that
