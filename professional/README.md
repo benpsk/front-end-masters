@@ -70,3 +70,8 @@
 
 > course repo
 - https://github.com/burkeholland/workshop-vs-code-can-do-that
+
+
+> Git In-depth
+> course repo
+- https://github.com/nnja/advanced-git
